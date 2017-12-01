@@ -1,0 +1,42 @@
+Running: /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/tb_idea_single_isim_beh.exe -prj /nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/tb_idea_single_beh.prj work.tb_idea_single 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/xorop.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/mulop.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/addop.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/trafo.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/round.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/mux.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/key_generator.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/control.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/clock_controlled_register.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/idea_single.vhd" into library work
+Parsing VHDL file "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/tb_idea_single.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97096 KB
+Fuse CPU Usage: 1090 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity control [control_default]
+Compiling architecture behavioral of entity key_generator [key_generator_default]
+Compiling architecture behavioral of entity mux [mux_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity mulop [mulop_default]
+Compiling architecture behavioral of entity addop [addop_default]
+Compiling architecture behavioral of entity xorop [xorop_default]
+Compiling architecture behavioral of entity round [round_default]
+Compiling architecture behavioral of entity clock_controlled_register [clock_controlled_register_defaul...]
+Compiling architecture behavioral of entity trafo [trafo_default]
+Compiling architecture structural of entity idea_single [idea_single_default]
+Compiling architecture behavior of entity tb_idea_single
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable /nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/tb_idea_single_isim_beh.exe
+Fuse Memory Usage: 407616 KB
+Fuse CPU Usage: 1200 ms
+GCC CPU Usage: 720 ms

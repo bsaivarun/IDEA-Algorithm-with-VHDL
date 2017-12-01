@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/xst"
+elaborate
+-ifn round.prj
+-ifmt mixed

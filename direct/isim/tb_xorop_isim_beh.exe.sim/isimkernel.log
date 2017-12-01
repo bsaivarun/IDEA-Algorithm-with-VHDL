@@ -1,0 +1,28 @@
+Command line:
+   tb_xorop_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53770
+
+Fri May 26 19:16:24 2017
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 229.081 Meg
+
+ Total Signals          : 6
+ Total Nets             : 48
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 408
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 304.521 Meg
+
+Fri May 26 19:16:39 2017
+

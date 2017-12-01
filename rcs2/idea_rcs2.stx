@@ -1,0 +1,57 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/mux4x1.vhd" in Library work.
+Architecture behavioral of Entity mux4x1 is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/mulop.vhd" in Library work.
+Architecture behavioral of Entity mulop is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/addop.vhd" in Library work.
+Architecture behavioral of Entity addop is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/xorop.vhd" in Library work.
+Architecture behavioral of Entity xorop is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/clock_controlled_register.vhd" in Library work.
+Architecture behavioral of Entity clock_controlled_register is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/control.vhd" in Library work.
+Architecture behavioral of Entity control is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/datapath.vhd" in Library work.
+Architecture behavioral of Entity datapath is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/roundcounter.vhd" in Library work.
+Architecture behavioral of Entity roundcounter is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs1/key_generator.vhd" in Library work.
+Architecture behavioral of Entity key_generator is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/clockedround.vhd" in Library work.
+Architecture structural of Entity clockedround is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/mux2x1.vhd" in Library work.
+Architecture behavioral of Entity mux2x1 is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/rcs2/idea_rcs2.vhd" in Library work.
+Entity <idea_rcs2> compiled.
+Entity <idea_rcs2> (Architecture <Structural>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.39 secs
+ 
+--> 
+
+Total memory usage is 249560 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

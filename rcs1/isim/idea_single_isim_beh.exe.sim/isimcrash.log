@@ -1,0 +1,14 @@
+Printing stacktrace...
+
+[0] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimTransaction::action()+0xf1) [0x7feb995e7681]
+[1] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::processEvents()+0x4f) [0x7feb9957256f]
+[2] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsimCurrentSlot(HSimQArrayS*)+0x3e) [0x7feb9957639e]
+[3] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsimInternal(long long)+0xb7) [0x7feb995768c7]
+[4] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimKernel::spsim(long long)+0xcd) [0x7feb995769fd]
+[5] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(ISimEngine::SimulationThread::runCommand()+0x9f) [0x7feb995bebbf]
+[6] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(ISimEngine::SimulationThread::loop()+0x91) [0x7feb995bfb11]
+[7] /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE/./lib/lin64/libhsimengine.so(HSimSimCtl::runTcl(HSimConfigDecl*, HSimEntyBlk*, int, char**)+0x25c) [0x7feb995ba43c]
+[8] idea_single_isim_beh.exe(main+0x11e) [0x401a6b]
+[9] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf5) [0x7feb99079f45]
+[10] idea_single_isim_beh.exe() [0x401889]
+Done

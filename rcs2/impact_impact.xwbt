@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs2/impact.xsl
+OUTFILE=/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs2/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs2
+LICENSE=iMPACT
+USER_INFO=iMPACT

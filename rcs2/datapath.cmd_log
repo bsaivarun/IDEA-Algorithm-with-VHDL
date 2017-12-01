@@ -1,0 +1,1 @@
+vhdtdtfi -prj idea_rcs2 -o /nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs2/datapath.vhi -module datapath -template /nfs/tools/xilinx/ise/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work xorop.vhd -lib work mux4x1.vhd -lib work mulop.vhd -lib work clock_controlled_register.vhd -lib work addop.vhd -lib work datapath.vhd 

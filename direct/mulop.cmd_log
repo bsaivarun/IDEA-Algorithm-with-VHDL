@@ -1,0 +1,4 @@
+vhdtdtfi -prj idea -o "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/mulop.vhi" -module mulop -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mulop.vhd 
+vhdtdtfi -lib work mulop.vhd -prj idea -o mulop.spl -module mulop -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e mulop.spl {C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/mulop.sym} 
+vhdtdtfi -prj idea -o "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/mulop.vhi" -module mulop -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work mulop.vhd 

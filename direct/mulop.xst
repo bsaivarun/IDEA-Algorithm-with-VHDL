@@ -1,0 +1,5 @@
+set -tmpdir "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/xst/projnav.tmp"
+set -xsthdpdir "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/xst"
+elaborate
+-ifn mulop.prj
+-ifmt mixed

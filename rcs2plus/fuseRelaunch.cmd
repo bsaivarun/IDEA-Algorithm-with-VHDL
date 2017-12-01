@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/rcs2plus/tb_idea_rcs2plus_isim_beh.exe" -prj "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/rcs2plus/tb_idea_rcs2plus_beh.prj" "work.tb_idea_rcs2plus" 

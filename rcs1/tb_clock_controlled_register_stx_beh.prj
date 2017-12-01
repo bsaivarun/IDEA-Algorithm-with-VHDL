@@ -1,0 +1,2 @@
+vhdl isim_temp "clock_controlled_register.vhd"
+vhdl isim_temp "tb_clock_controlled_register.vhd"

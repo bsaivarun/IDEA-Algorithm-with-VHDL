@@ -1,0 +1,28 @@
+Command line:
+   tb_idea_sngl_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51018
+
+Thu Jun 22 20:05:18 2017
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 231.756 Meg
+
+ Total Signals          : 216
+ Total Nets             : 2209
+ Total Signal Drivers   : 74
+ Total Blocks           : 35
+ Total Primitive Blocks : 31
+ Total Processes        : 55
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 2588
+
+ Total Simulation Time: 0.04 sec
+
+ Current Memory Usage: 307.397 Meg
+
+Thu Jun 22 20:05:54 2017
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/tb_idea_single_isim_beh.exe" -prj "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs1/tb_idea_single_beh.prj" "work.tb_idea_single" 

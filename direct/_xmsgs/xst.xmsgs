@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/idea</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/idea.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/idea/Structural</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/idea.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/round</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/round.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/round.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/round/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/round.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/round.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/trafo</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/trafo.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/trafo.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/trafo/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/trafo.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/trafo.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/addop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/addop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/addop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/addop/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/addop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/addop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mulop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/mulop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/mulop/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/mulop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/xorop</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/xorop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/xorop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/xorop/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/xorop.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/xorop.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd</arg>&quot; line <arg fmt="%d" index="2">72</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;X&gt;, &lt;Y&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">XY&lt;33:32&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2254" delta="new" >Area constraint could not be met for block &lt;<arg fmt="%s" index="1">idea</arg>&gt;, final ratio is <arg fmt="%i" index="2">159</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="new" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>
+

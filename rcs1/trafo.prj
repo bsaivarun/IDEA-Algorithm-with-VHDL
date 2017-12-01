@@ -1,0 +1,3 @@
+vhdl work "mulop.vhd"
+vhdl work "addop.vhd"
+vhdl work "trafo.vhd"

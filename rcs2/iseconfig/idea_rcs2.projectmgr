@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="idea_rcs2" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/clockedround - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|clockedround.vhd/datapath1 - datapath - Behavioral</ClosedNode>
+         <ClosedNode>/clockedround - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|clockedround.vhd/datapath2 - datapath - Behavioral</ClosedNode>
+         <ClosedNode>/datapath - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|datapath.vhd</ClosedNode>
+         <ClosedNode>/datapath - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|datapath.vhd</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/uart1 - uart - behavior</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/idea1 - idea_rcs2 - Structural/clockedround1 - clockedround - Structural/datapath01 - datapath - Structural</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/uart1 - uart - behavior</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uart1 - uart - behavior (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/rcs2/uart.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002b6000000020000000000000000000000000200000064ffffffff000000810000000300000002000002b60000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uart1 - uart - behavior (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/rcs2/uart.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000038e000000040101000100000000000000000000000064ffffffff0000008100000000000000040000008d0000000100000000000000bb0000000100000000000000760000000100000000000001d00000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>clk_div.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000118000000010001000100000000000000000000000064ffffffff000000810000000000000001000001180000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/idea_com - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/idea1 - idea_rcs2 - Structural/clockedround1 - clockedround - Structural</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/uart1 - uart - behavior</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/idea1 - idea_rcs2 - Structural/clockedround1 - clockedround - Structural/datapath1 - datapath - Behavioral</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/uart1 - uart - behavior</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/idea1 - idea_rcs2 - Structural/clockedround1 - clockedround - Structural</ClosedNode>
+         <ClosedNode>/idea_com - Behavioral |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|idea_com.vhd/idea_1 - idea_com_inner - Behavioral/uart1 - uart - behavior</ClosedNode>
+         <ClosedNode>/tb_clockedround - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|rcs2|tb_clockedround.vhd</ClosedNode>
+         <ClosedNode>/tb_clockedround - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|tb_clockedround.vhd/uut - clockedround - Structural/datapath1 - datapath - Behavioral</ClosedNode>
+         <ClosedNode>/tb_clockedround - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|tb_clockedround.vhd</ClosedNode>
+         <ClosedNode>/tb_clockedround - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|tb_clockedround.vhd/uut - clockedround - Structural/datapath1 - datapath - Behavioral</ClosedNode>
+         <ClosedNode>/tb_datapath - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|tb_datapath.vhd/uut - datapath - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea_rcs2 - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|rcs2|tb_idea_rcs2.vhd</ClosedNode>
+         <ClosedNode>/tb_idea_rcs2 - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|rcs2|tb_idea_rcs2.vhd/uut - idea_rcs2 - Structural</ClosedNode>
+         <ClosedNode>/tb_idea_rcs2 - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|tb_idea_rcs2.vhd/uut - idea_rcs2 - Structural</ClosedNode>
+         <ClosedNode>/tb_idea_rcs2 - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|rcs2|tb_idea_rcs2.vhd/uut - idea_rcs2 - Structural/clockedround1 - clockedround - Structural/datapath1 - datapath - Structural</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>idea_com - Behavioral (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/rcs2/idea_com.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000296000000020000000000000000000000000200000064ffffffff000000810000000300000002000002960000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>idea_com - Behavioral (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/rcs2/idea_com.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001d4000001a501000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>xc3s500e-4fg320</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a7000000020000000000000000000000000000000064ffffffff000000810000000000000002000001150000000100000000000000920000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>xc3s500e-4fg320</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>clk_div.vhd (/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs2/clk_div.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001a7000000020000000000000000000000000000000064ffffffff000000810000000000000002000001150000000100000000000000920000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>clk_div.vhd (/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/rcs2/clk_div.vhd)</CurrentItem>
+   </ItemView>
+   <CopyAdditionalFiles/>
+</Project>

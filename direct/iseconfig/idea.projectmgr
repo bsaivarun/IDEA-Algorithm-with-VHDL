@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="idea" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/output - trafo - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round1 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|idea.vhd/round8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/output - trafo - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/output - trafo - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/round2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/round3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/round4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/round5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/round6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/round7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|idea.vhd/round8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/round - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|round.vhd</ClosedNode>
+         <ClosedNode>/trafo - Behavioral C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|trafo.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>idea - Structural (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000161000000020000000000000000000000000200000064ffffffff000000810000000300000002000001610000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>idea - Structural (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>View RTL Schematic</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>View RTL Schematic</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>addop.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000570000000100000000000000510000000100000000000000760000000100000000000002850000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>addop.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000118000000010001000100000000000000000000000064ffffffff000000810000000000000001000001180000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001390000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/output - trafo - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round1 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/idea - Structural C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|idea.vhd/round8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_addop - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|tb_addop.vhd</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|Final Submission|direct|tb_idea.vhd</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/output - trafo - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/round2 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/round3 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/round4 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/round5 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/round6 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/round7 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_idea.vhd/uut - idea - Structural/round8 - round - Behavioral</ClosedNode>
+         <ClosedNode>/tb_idea - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|tb_idea.vhd</ClosedNode>
+         <ClosedNode>/tb_mulop - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|tb_mulop.vhd</ClosedNode>
+         <ClosedNode>/tb_round - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_round.vhd</ClosedNode>
+         <ClosedNode>/tb_round - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|tb_round.vhd</ClosedNode>
+         <ClosedNode>/tb_trafo - behavior C:|Users|brahm|OneDrive|MSCE Plan|Lab|VHDL|submission_template|submit|direct|tb_trafo.vhd</ClosedNode>
+         <ClosedNode>/tb_trafo - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|tb_trafo.vhd</ClosedNode>
+         <ClosedNode>/tb_xorop - behavior |nfs|TUEIEDA|LabHDL|2017s|ga87dew|submit|direct|tb_xorop.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>uut - mulop - Behavioral (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000163000000020000000000000000000000000200000064ffffffff000000810000000300000002000001630000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>uut - mulop - Behavioral (C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000011e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000011e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

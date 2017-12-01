@@ -1,0 +1,1207 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: idea.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "idea.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "idea"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : idea
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/idea is now defined in a different file.  It was defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/idea.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd".
+WARNING:HDLParsers:3607 - Unit work/idea/Structural is now defined in a different file.  It was defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/idea.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd".
+WARNING:HDLParsers:3607 - Unit work/round is now defined in a different file.  It was defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/round.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/round.vhd".
+WARNING:HDLParsers:3607 - Unit work/round/Behavioral is now defined in a different file.  It was defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/round.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/round.vhd".
+WARNING:HDLParsers:3607 - Unit work/trafo is now defined in a different file.  It was defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/trafo.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/trafo.vhd".
+WARNING:HDLParsers:3607 - Unit work/trafo/Behavioral is now defined in a different file.  It was defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/submission_template/submit/direct/trafo.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/trafo.vhd".
+WARNING:HDLParsers:3607 - Unit work/addop is now defined in a different file.  It was defined in "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/addop.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/addop.vhd".
+WARNING:HDLParsers:3607 - Unit work/addop/Behavioral is now defined in a different file.  It was defined in "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/addop.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/addop.vhd".
+WARNING:HDLParsers:3607 - Unit work/mulop is now defined in a different file.  It was defined in "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/mulop.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd".
+WARNING:HDLParsers:3607 - Unit work/mulop/Behavioral is now defined in a different file.  It was defined in "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/mulop.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd".
+WARNING:HDLParsers:3607 - Unit work/xorop is now defined in a different file.  It was defined in "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/xorop.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/xorop.vhd".
+WARNING:HDLParsers:3607 - Unit work/xorop/Behavioral is now defined in a different file.  It was defined in "/nfs/TUEIEDA/LabHDL/2017s/ga87dew/submit/direct/xorop.vhd", and is now defined in "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/xorop.vhd".
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd" in Library work.
+Architecture behavioral of Entity mulop is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/addop.vhd" in Library work.
+Architecture behavioral of Entity addop is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/xorop.vhd" in Library work.
+Architecture behavioral of Entity xorop is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/round.vhd" in Library work.
+Architecture behavioral of Entity round is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/trafo.vhd" in Library work.
+Architecture behavioral of Entity trafo is up to date.
+Compiling vhdl file "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd" in Library work.
+Architecture structural of Entity idea is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <idea> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <round> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <trafo> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mulop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <addop> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <xorop> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <idea> in library <work> (Architecture <structural>).
+Entity <idea> analyzed. Unit <idea> generated.
+
+Analyzing Entity <round> in library <work> (Architecture <behavioral>).
+Entity <round> analyzed. Unit <round> generated.
+
+Analyzing Entity <mulop> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd" line 72: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <X>, <Y>
+Entity <mulop> analyzed. Unit <mulop> generated.
+
+Analyzing Entity <addop> in library <work> (Architecture <behavioral>).
+Entity <addop> analyzed. Unit <addop> generated.
+
+Analyzing Entity <xorop> in library <work> (Architecture <behavioral>).
+Entity <xorop> analyzed. Unit <xorop> generated.
+
+Analyzing Entity <trafo> in library <work> (Architecture <behavioral>).
+Entity <trafo> analyzed. Unit <trafo> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <mulop>.
+    Related source file is "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/mulop.vhd".
+WARNING:Xst:646 - Signal <XY<33:32>> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 32-bit adder for signal <res$addsub0000> created at line 80.
+    Found 16-bit comparator less for signal <res$cmp_lt0000> created at line 79.
+    Found 32-bit 4-to-1 multiplexer for signal <res$mux0001> created at line 79.
+    Found 16-bit subtractor for signal <res$sub0000> created at line 78.
+    Found 17x17-bit multiplier for signal <XY>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   1 Multiplier(s).
+	inferred   1 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <mulop> synthesized.
+
+
+Synthesizing Unit <addop>.
+    Related source file is "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/addop.vhd".
+    Found 16-bit adder for signal <Z>.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <addop> synthesized.
+
+
+Synthesizing Unit <xorop>.
+    Related source file is "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/xorop.vhd".
+    Found 16-bit xor2 for signal <Z>.
+Unit <xorop> synthesized.
+
+
+Synthesizing Unit <round>.
+    Related source file is "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/round.vhd".
+Unit <round> synthesized.
+
+
+Synthesizing Unit <trafo>.
+    Related source file is "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/trafo.vhd".
+Unit <trafo> synthesized.
+
+
+Synthesizing Unit <idea>.
+    Related source file is "C:/Users/brahm/OneDrive/MSCE Plan/Lab/VHDL/Final Submission/direct/idea.vhd".
+Unit <idea> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 34
+ 17x17-bit multiplier                                  : 34
+# Adders/Subtractors                                   : 102
+ 16-bit adder                                          : 34
+ 16-bit subtractor                                     : 34
+ 32-bit adder                                          : 34
+# Comparators                                          : 34
+ 16-bit comparator less                                : 34
+# Multiplexers                                         : 34
+ 32-bit 4-to-1 multiplexer                             : 34
+# Xors                                                 : 48
+ 16-bit xor2                                           : 48
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 34
+ 17x17-bit multiplier                                  : 34
+# Adders/Subtractors                                   : 102
+ 16-bit adder                                          : 34
+ 16-bit subtractor                                     : 34
+ 32-bit adder                                          : 34
+# Comparators                                          : 34
+ 16-bit comparator less                                : 34
+# Multiplexers                                         : 34
+ 32-bit 4-to-1 multiplexer                             : 34
+# Xors                                                 : 48
+ 16-bit xor2                                           : 48
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <idea> ...
+
+Optimizing unit <mulop> ...
+
+Optimizing unit <round> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block idea, actual ratio is 177.
+Optimizing block <idea> to meet ratio 100 (+ 5) of 4656 slices :
+WARNING:Xst:2254 - Area constraint could not be met for block <idea>, final ratio is 159.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : idea.ngr
+Top Level Output File Name         : idea
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 256
+
+Cell Usage :
+# BELS                             : 43079
+#      GND                         : 1
+#      INV                         : 34
+#      LUT1                        : 918
+#      LUT2                        : 7158
+#      LUT3                        : 1736
+#      LUT4                        : 4527
+#      MULT_AND                    : 3740
+#      MUXCY                       : 12580
+#      MUXF5                       : 42
+#      VCC                         : 1
+#      XORCY                       : 12342
+# IO Buffers                       : 256
+#      IBUF                        : 192
+#      OBUF                        : 64
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     7420  out of   4656   159% (*) 
+ Number of 4 input LUTs:              14373  out of   9312   154% (*) 
+ Number of IOs:                         256
+ Number of bonded IOBs:                 256  out of    232   110% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 654.639ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 583775611279046570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 / 64
+-------------------------------------------------------------------------
+Delay:               654.639ns (Levels of Logic = 797)
+  Source:            A1<0> (PAD)
+  Destination:       B4<15> (PAD)
+
+  Data Path: A1<0> to B4<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            19   1.218   1.260  A1_0_IBUF (A1_0_IBUF)
+     LUT4:I0->O            1   0.704   0.595  round1/m1/X1_cmp_eq000012 (round1/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round1/m1/X1_cmp_eq000076 (round1/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round1/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round1/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round1/m1/Mmult_XY_Madd2_cy<7> (round1/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round1/m1/Mmult_XY_Madd2_xor<8> (round1/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round1/m1/Mmult_XY_Madd8_lut<10> (round1/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round1/m1/Mmult_XY_Madd8_cy<10> (round1/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m1/Mmult_XY_Madd8_cy<11> (round1/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m1/Mmult_XY_Madd8_cy<12> (round1/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round1/m1/Mmult_XY_Madd8_xor<13> (round1/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round1/m1/Mmult_XY_Madd12_lut<17> (round1/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round1/m1/Mmult_XY_Madd12_cy<17> (round1/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m1/Mmult_XY_Madd12_cy<18> (round1/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m1/Mmult_XY_Madd12_cy<19> (round1/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m1/Mmult_XY_Madd12_cy<20> (round1/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m1/Mmult_XY_Madd12_cy<21> (round1/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round1/m1/Mmult_XY_Madd12_xor<22> (round1/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round1/m1/Mmult_XY_Madd14_lut<27> (round1/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round1/m1/Mmult_XY_Madd14_cy<27> (round1/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round1/m1/Mmult_XY_Madd14_xor<28> (round1/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round1/m1/Mmult_XY_Madd15_lut<28> (round1/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round1/m1/Mmult_XY_Madd15_cy<28> (round1/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round1/m1/Mmult_XY_Madd15_xor<29> (round1/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round1/m1/Msub_res_sub0000_lut<13> (round1/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round1/m1/Msub_res_sub0000_cy<13> (round1/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round1/m1/Msub_res_sub0000_xor<14> (round1/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round1/m1/Madd_res_addsub0000_cy<14>_rt (round1/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round1/m1/Madd_res_addsub0000_cy<14> (round1/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round1/m1/Madd_res_addsub0000_xor<15> (round1/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round1/m1/Mmux_res_mux000171 (round1/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round1/r1/Mxor_Z_Result<15>1 (round1/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round1/m3/X1_cmp_eq000049 (round1/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round1/m3/X1_cmp_eq000076 (round1/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round1/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round1/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round1/m3/Mmult_XY_Madd2_cy<7> (round1/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round1/m3/Mmult_XY_Madd2_xor<8> (round1/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round1/m3/Mmult_XY_Madd8_lut<10> (round1/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round1/m3/Mmult_XY_Madd8_cy<10> (round1/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd8_cy<11> (round1/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd8_cy<12> (round1/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round1/m3/Mmult_XY_Madd8_xor<13> (round1/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round1/m3/Mmult_XY_Madd12_lut<17> (round1/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round1/m3/Mmult_XY_Madd12_cy<17> (round1/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd12_cy<18> (round1/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd12_cy<19> (round1/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd12_cy<20> (round1/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd12_cy<21> (round1/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round1/m3/Mmult_XY_Madd12_xor<22> (round1/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round1/m3/Mmult_XY_Madd14_lut<27> (round1/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round1/m3/Mmult_XY_Madd14_cy<27> (round1/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd14_cy<28> (round1/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m3/Mmult_XY_Madd14_cy<29> (round1/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round1/m3/Mmult_XY_Madd14_xor<30> (round1/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round1/m3/Mmult_XY_Madd15_lut<30> (round1/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round1/m3/Mmult_XY_Madd15_cy<30> (round1/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round1/m3/Mmult_XY_Madd15_xor<31> (round1/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round1/m3/Mcompar_res_cmp_lt0000_lut<15> (round1/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round1/m3/Mcompar_res_cmp_lt0000_cy<15> (round1/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round1/m3/Mmux_res_mux00011011 (round1/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round1/m3/Mmux_res_mux000181 (round1/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round1/a3/Madd_Z_lut<1> (round1/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round1/a3/Madd_Z_cy<1> (round1/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round1/a3/Madd_Z_xor<2> (round1/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round1/m4/X1_cmp_eq00008 (round1/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round1/m4/X1_cmp_eq000024 (round1/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round1/m4/X1_cmp_eq000088_SW0 (N90)
+     LUT4:I3->O           18   0.704   1.068  round1/m4/X1_cmp_eq000088 (round1/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round1/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round1/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round1/m4/Mmult_XY_Madd2_cy<7> (round1/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round1/m4/Mmult_XY_Madd2_xor<8> (round1/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round1/m4/Mmult_XY_Madd8_lut<10> (round1/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round1/m4/Mmult_XY_Madd8_cy<10> (round1/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd8_cy<11> (round1/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd8_cy<12> (round1/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round1/m4/Mmult_XY_Madd8_xor<13> (round1/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round1/m4/Mmult_XY_Madd12_lut<17> (round1/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round1/m4/Mmult_XY_Madd12_cy<17> (round1/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd12_cy<18> (round1/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd12_cy<19> (round1/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd12_cy<20> (round1/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd12_cy<21> (round1/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round1/m4/Mmult_XY_Madd12_xor<22> (round1/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round1/m4/Mmult_XY_Madd14_lut<27> (round1/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round1/m4/Mmult_XY_Madd14_cy<27> (round1/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd14_cy<28> (round1/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round1/m4/Mmult_XY_Madd14_cy<29> (round1/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round1/m4/Mmult_XY_Madd14_xor<30> (round1/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round1/m4/Mmult_XY_Madd15_lut<30> (round1/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round1/m4/Mmult_XY_Madd15_cy<30> (round1/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round1/m4/Mmult_XY_Madd15_xor<31> (round1/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round1/m4/Mcompar_res_cmp_lt0000_lut<15> (round1/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round1/m4/Mcompar_res_cmp_lt0000_cy<15> (round1/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round1/m4/Mmux_res_mux00011011 (round1/m4/N01)
+     LUT4:I0->O            4   0.704   0.762  round1/m4/Mmux_res_mux000181 (round1/S9<1>)
+     LUT2:I0->O           18   0.704   1.243  round1/r3/Mxor_Z_Result<1>1 (R11<1>)
+     LUT4:I0->O            1   0.704   0.595  round2/m1/X1_cmp_eq000012 (round2/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round2/m1/X1_cmp_eq000076 (round2/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round2/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round2/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round2/m1/Mmult_XY_Madd2_cy<7> (round2/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round2/m1/Mmult_XY_Madd2_xor<8> (round2/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round2/m1/Mmult_XY_Madd8_lut<10> (round2/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round2/m1/Mmult_XY_Madd8_cy<10> (round2/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m1/Mmult_XY_Madd8_cy<11> (round2/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m1/Mmult_XY_Madd8_cy<12> (round2/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round2/m1/Mmult_XY_Madd8_xor<13> (round2/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round2/m1/Mmult_XY_Madd12_lut<17> (round2/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round2/m1/Mmult_XY_Madd12_cy<17> (round2/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m1/Mmult_XY_Madd12_cy<18> (round2/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m1/Mmult_XY_Madd12_cy<19> (round2/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m1/Mmult_XY_Madd12_cy<20> (round2/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m1/Mmult_XY_Madd12_cy<21> (round2/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round2/m1/Mmult_XY_Madd12_xor<22> (round2/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round2/m1/Mmult_XY_Madd14_lut<27> (round2/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round2/m1/Mmult_XY_Madd14_cy<27> (round2/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round2/m1/Mmult_XY_Madd14_xor<28> (round2/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round2/m1/Mmult_XY_Madd15_lut<28> (round2/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round2/m1/Mmult_XY_Madd15_cy<28> (round2/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round2/m1/Mmult_XY_Madd15_xor<29> (round2/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round2/m1/Msub_res_sub0000_lut<13> (round2/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round2/m1/Msub_res_sub0000_cy<13> (round2/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round2/m1/Msub_res_sub0000_xor<14> (round2/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round2/m1/Madd_res_addsub0000_cy<14>_rt (round2/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round2/m1/Madd_res_addsub0000_cy<14> (round2/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round2/m1/Madd_res_addsub0000_xor<15> (round2/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round2/m1/Mmux_res_mux000171 (round2/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round2/r1/Mxor_Z_Result<15>1 (round2/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round2/m3/X1_cmp_eq000049 (round2/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round2/m3/X1_cmp_eq000076 (round2/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round2/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round2/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round2/m3/Mmult_XY_Madd2_cy<7> (round2/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round2/m3/Mmult_XY_Madd2_xor<8> (round2/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round2/m3/Mmult_XY_Madd8_lut<10> (round2/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round2/m3/Mmult_XY_Madd8_cy<10> (round2/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd8_cy<11> (round2/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd8_cy<12> (round2/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round2/m3/Mmult_XY_Madd8_xor<13> (round2/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round2/m3/Mmult_XY_Madd12_lut<17> (round2/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round2/m3/Mmult_XY_Madd12_cy<17> (round2/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd12_cy<18> (round2/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd12_cy<19> (round2/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd12_cy<20> (round2/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd12_cy<21> (round2/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round2/m3/Mmult_XY_Madd12_xor<22> (round2/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round2/m3/Mmult_XY_Madd14_lut<27> (round2/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round2/m3/Mmult_XY_Madd14_cy<27> (round2/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd14_cy<28> (round2/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m3/Mmult_XY_Madd14_cy<29> (round2/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round2/m3/Mmult_XY_Madd14_xor<30> (round2/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round2/m3/Mmult_XY_Madd15_lut<30> (round2/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round2/m3/Mmult_XY_Madd15_cy<30> (round2/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round2/m3/Mmult_XY_Madd15_xor<31> (round2/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round2/m3/Mcompar_res_cmp_lt0000_lut<15> (round2/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round2/m3/Mcompar_res_cmp_lt0000_cy<15> (round2/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round2/m3/Mmux_res_mux00011011 (round2/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round2/m3/Mmux_res_mux000181 (round2/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round2/a3/Madd_Z_lut<1> (round2/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round2/a3/Madd_Z_cy<1> (round2/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round2/a3/Madd_Z_xor<2> (round2/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round2/m4/X1_cmp_eq00008 (round2/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round2/m4/X1_cmp_eq000024 (round2/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round2/m4/X1_cmp_eq000088_SW0 (N94)
+     LUT4:I3->O           18   0.704   1.068  round2/m4/X1_cmp_eq000088 (round2/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round2/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round2/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round2/m4/Mmult_XY_Madd2_cy<7> (round2/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round2/m4/Mmult_XY_Madd2_xor<8> (round2/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round2/m4/Mmult_XY_Madd8_lut<10> (round2/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round2/m4/Mmult_XY_Madd8_cy<10> (round2/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd8_cy<11> (round2/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd8_cy<12> (round2/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round2/m4/Mmult_XY_Madd8_xor<13> (round2/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round2/m4/Mmult_XY_Madd12_lut<17> (round2/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round2/m4/Mmult_XY_Madd12_cy<17> (round2/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd12_cy<18> (round2/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd12_cy<19> (round2/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd12_cy<20> (round2/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd12_cy<21> (round2/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round2/m4/Mmult_XY_Madd12_xor<22> (round2/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round2/m4/Mmult_XY_Madd14_lut<27> (round2/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round2/m4/Mmult_XY_Madd14_cy<27> (round2/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd14_cy<28> (round2/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round2/m4/Mmult_XY_Madd14_cy<29> (round2/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round2/m4/Mmult_XY_Madd14_xor<30> (round2/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round2/m4/Mmult_XY_Madd15_lut<30> (round2/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round2/m4/Mmult_XY_Madd15_cy<30> (round2/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round2/m4/Mmult_XY_Madd15_xor<31> (round2/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round2/m4/Mcompar_res_cmp_lt0000_lut<15> (round2/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round2/m4/Mcompar_res_cmp_lt0000_cy<15> (round2/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round2/m4/Mmux_res_mux00011011 (round2/m4/N01)
+     LUT4:I0->O            4   0.704   0.762  round2/m4/Mmux_res_mux000181 (round2/S9<1>)
+     LUT2:I0->O           18   0.704   1.243  round2/r3/Mxor_Z_Result<1>1 (R21<1>)
+     LUT4:I0->O            1   0.704   0.595  round3/m1/X1_cmp_eq000012 (round3/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round3/m1/X1_cmp_eq000076 (round3/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round3/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round3/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round3/m1/Mmult_XY_Madd2_cy<7> (round3/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round3/m1/Mmult_XY_Madd2_xor<8> (round3/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round3/m1/Mmult_XY_Madd8_lut<10> (round3/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round3/m1/Mmult_XY_Madd8_cy<10> (round3/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m1/Mmult_XY_Madd8_cy<11> (round3/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m1/Mmult_XY_Madd8_cy<12> (round3/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round3/m1/Mmult_XY_Madd8_xor<13> (round3/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round3/m1/Mmult_XY_Madd12_lut<17> (round3/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round3/m1/Mmult_XY_Madd12_cy<17> (round3/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m1/Mmult_XY_Madd12_cy<18> (round3/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m1/Mmult_XY_Madd12_cy<19> (round3/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m1/Mmult_XY_Madd12_cy<20> (round3/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m1/Mmult_XY_Madd12_cy<21> (round3/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round3/m1/Mmult_XY_Madd12_xor<22> (round3/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round3/m1/Mmult_XY_Madd14_lut<27> (round3/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round3/m1/Mmult_XY_Madd14_cy<27> (round3/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round3/m1/Mmult_XY_Madd14_xor<28> (round3/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round3/m1/Mmult_XY_Madd15_lut<28> (round3/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round3/m1/Mmult_XY_Madd15_cy<28> (round3/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round3/m1/Mmult_XY_Madd15_xor<29> (round3/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round3/m1/Msub_res_sub0000_lut<13> (round3/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round3/m1/Msub_res_sub0000_cy<13> (round3/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round3/m1/Msub_res_sub0000_xor<14> (round3/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round3/m1/Madd_res_addsub0000_cy<14>_rt (round3/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round3/m1/Madd_res_addsub0000_cy<14> (round3/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round3/m1/Madd_res_addsub0000_xor<15> (round3/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round3/m1/Mmux_res_mux000171 (round3/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round3/r1/Mxor_Z_Result<15>1 (round3/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round3/m3/X1_cmp_eq000049 (round3/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round3/m3/X1_cmp_eq000076 (round3/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round3/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round3/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round3/m3/Mmult_XY_Madd2_cy<7> (round3/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round3/m3/Mmult_XY_Madd2_xor<8> (round3/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round3/m3/Mmult_XY_Madd8_lut<10> (round3/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round3/m3/Mmult_XY_Madd8_cy<10> (round3/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd8_cy<11> (round3/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd8_cy<12> (round3/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round3/m3/Mmult_XY_Madd8_xor<13> (round3/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round3/m3/Mmult_XY_Madd12_lut<17> (round3/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round3/m3/Mmult_XY_Madd12_cy<17> (round3/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd12_cy<18> (round3/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd12_cy<19> (round3/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd12_cy<20> (round3/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd12_cy<21> (round3/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round3/m3/Mmult_XY_Madd12_xor<22> (round3/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round3/m3/Mmult_XY_Madd14_lut<27> (round3/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round3/m3/Mmult_XY_Madd14_cy<27> (round3/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd14_cy<28> (round3/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m3/Mmult_XY_Madd14_cy<29> (round3/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round3/m3/Mmult_XY_Madd14_xor<30> (round3/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round3/m3/Mmult_XY_Madd15_lut<30> (round3/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round3/m3/Mmult_XY_Madd15_cy<30> (round3/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round3/m3/Mmult_XY_Madd15_xor<31> (round3/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round3/m3/Mcompar_res_cmp_lt0000_lut<15> (round3/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round3/m3/Mcompar_res_cmp_lt0000_cy<15> (round3/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round3/m3/Mmux_res_mux00011011 (round3/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round3/m3/Mmux_res_mux000181 (round3/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round3/a3/Madd_Z_lut<1> (round3/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round3/a3/Madd_Z_cy<1> (round3/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round3/a3/Madd_Z_xor<2> (round3/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round3/m4/X1_cmp_eq00008 (round3/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round3/m4/X1_cmp_eq000024 (round3/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round3/m4/X1_cmp_eq000088_SW0 (N98)
+     LUT4:I3->O           18   0.704   1.068  round3/m4/X1_cmp_eq000088 (round3/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round3/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round3/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round3/m4/Mmult_XY_Madd2_cy<7> (round3/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round3/m4/Mmult_XY_Madd2_xor<8> (round3/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round3/m4/Mmult_XY_Madd8_lut<10> (round3/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round3/m4/Mmult_XY_Madd8_cy<10> (round3/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd8_cy<11> (round3/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd8_cy<12> (round3/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round3/m4/Mmult_XY_Madd8_xor<13> (round3/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round3/m4/Mmult_XY_Madd12_lut<17> (round3/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round3/m4/Mmult_XY_Madd12_cy<17> (round3/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd12_cy<18> (round3/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd12_cy<19> (round3/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd12_cy<20> (round3/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd12_cy<21> (round3/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round3/m4/Mmult_XY_Madd12_xor<22> (round3/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round3/m4/Mmult_XY_Madd14_lut<27> (round3/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round3/m4/Mmult_XY_Madd14_cy<27> (round3/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd14_cy<28> (round3/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round3/m4/Mmult_XY_Madd14_cy<29> (round3/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round3/m4/Mmult_XY_Madd14_xor<30> (round3/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round3/m4/Mmult_XY_Madd15_lut<30> (round3/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round3/m4/Mmult_XY_Madd15_cy<30> (round3/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round3/m4/Mmult_XY_Madd15_xor<31> (round3/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round3/m4/Mcompar_res_cmp_lt0000_lut<15> (round3/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round3/m4/Mcompar_res_cmp_lt0000_cy<15> (round3/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round3/m4/Mmux_res_mux00011011 (round3/m4/N01)
+     LUT4:I0->O            4   0.704   0.762  round3/m4/Mmux_res_mux000181 (round3/S9<1>)
+     LUT2:I0->O           18   0.704   1.243  round3/r3/Mxor_Z_Result<1>1 (R31<1>)
+     LUT4:I0->O            1   0.704   0.595  round4/m1/X1_cmp_eq000012 (round4/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round4/m1/X1_cmp_eq000076 (round4/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round4/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round4/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round4/m1/Mmult_XY_Madd2_cy<7> (round4/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round4/m1/Mmult_XY_Madd2_xor<8> (round4/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round4/m1/Mmult_XY_Madd8_lut<10> (round4/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round4/m1/Mmult_XY_Madd8_cy<10> (round4/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m1/Mmult_XY_Madd8_cy<11> (round4/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m1/Mmult_XY_Madd8_cy<12> (round4/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round4/m1/Mmult_XY_Madd8_xor<13> (round4/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round4/m1/Mmult_XY_Madd12_lut<17> (round4/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round4/m1/Mmult_XY_Madd12_cy<17> (round4/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m1/Mmult_XY_Madd12_cy<18> (round4/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m1/Mmult_XY_Madd12_cy<19> (round4/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m1/Mmult_XY_Madd12_cy<20> (round4/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m1/Mmult_XY_Madd12_cy<21> (round4/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round4/m1/Mmult_XY_Madd12_xor<22> (round4/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round4/m1/Mmult_XY_Madd14_lut<27> (round4/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round4/m1/Mmult_XY_Madd14_cy<27> (round4/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round4/m1/Mmult_XY_Madd14_xor<28> (round4/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round4/m1/Mmult_XY_Madd15_lut<28> (round4/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round4/m1/Mmult_XY_Madd15_cy<28> (round4/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round4/m1/Mmult_XY_Madd15_xor<29> (round4/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round4/m1/Msub_res_sub0000_lut<13> (round4/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round4/m1/Msub_res_sub0000_cy<13> (round4/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round4/m1/Msub_res_sub0000_xor<14> (round4/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round4/m1/Madd_res_addsub0000_cy<14>_rt (round4/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round4/m1/Madd_res_addsub0000_cy<14> (round4/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round4/m1/Madd_res_addsub0000_xor<15> (round4/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round4/m1/Mmux_res_mux000171 (round4/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round4/r1/Mxor_Z_Result<15>1 (round4/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round4/m3/X1_cmp_eq000049 (round4/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round4/m3/X1_cmp_eq000076 (round4/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round4/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round4/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round4/m3/Mmult_XY_Madd2_cy<7> (round4/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round4/m3/Mmult_XY_Madd2_xor<8> (round4/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round4/m3/Mmult_XY_Madd8_lut<10> (round4/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round4/m3/Mmult_XY_Madd8_cy<10> (round4/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd8_cy<11> (round4/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd8_cy<12> (round4/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round4/m3/Mmult_XY_Madd8_xor<13> (round4/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round4/m3/Mmult_XY_Madd12_lut<17> (round4/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round4/m3/Mmult_XY_Madd12_cy<17> (round4/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd12_cy<18> (round4/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd12_cy<19> (round4/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd12_cy<20> (round4/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd12_cy<21> (round4/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round4/m3/Mmult_XY_Madd12_xor<22> (round4/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round4/m3/Mmult_XY_Madd14_lut<27> (round4/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round4/m3/Mmult_XY_Madd14_cy<27> (round4/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd14_cy<28> (round4/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m3/Mmult_XY_Madd14_cy<29> (round4/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round4/m3/Mmult_XY_Madd14_xor<30> (round4/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round4/m3/Mmult_XY_Madd15_lut<30> (round4/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round4/m3/Mmult_XY_Madd15_cy<30> (round4/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round4/m3/Mmult_XY_Madd15_xor<31> (round4/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round4/m3/Mcompar_res_cmp_lt0000_lut<15> (round4/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round4/m3/Mcompar_res_cmp_lt0000_cy<15> (round4/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round4/m3/Mmux_res_mux00011011 (round4/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round4/m3/Mmux_res_mux000181 (round4/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round4/a3/Madd_Z_lut<1> (round4/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round4/a3/Madd_Z_cy<1> (round4/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round4/a3/Madd_Z_xor<2> (round4/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round4/m4/X1_cmp_eq00008 (round4/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round4/m4/X1_cmp_eq000024 (round4/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round4/m4/X1_cmp_eq000088_SW0 (N102)
+     LUT4:I3->O           18   0.704   1.068  round4/m4/X1_cmp_eq000088 (round4/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round4/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round4/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round4/m4/Mmult_XY_Madd2_cy<7> (round4/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round4/m4/Mmult_XY_Madd2_xor<8> (round4/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round4/m4/Mmult_XY_Madd8_lut<10> (round4/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round4/m4/Mmult_XY_Madd8_cy<10> (round4/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd8_cy<11> (round4/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd8_cy<12> (round4/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round4/m4/Mmult_XY_Madd8_xor<13> (round4/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round4/m4/Mmult_XY_Madd12_lut<17> (round4/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round4/m4/Mmult_XY_Madd12_cy<17> (round4/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd12_cy<18> (round4/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd12_cy<19> (round4/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd12_cy<20> (round4/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd12_cy<21> (round4/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round4/m4/Mmult_XY_Madd12_xor<22> (round4/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round4/m4/Mmult_XY_Madd14_lut<27> (round4/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round4/m4/Mmult_XY_Madd14_cy<27> (round4/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd14_cy<28> (round4/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round4/m4/Mmult_XY_Madd14_cy<29> (round4/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round4/m4/Mmult_XY_Madd14_xor<30> (round4/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round4/m4/Mmult_XY_Madd15_lut<30> (round4/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round4/m4/Mmult_XY_Madd15_cy<30> (round4/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round4/m4/Mmult_XY_Madd15_xor<31> (round4/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round4/m4/Mcompar_res_cmp_lt0000_lut<15> (round4/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round4/m4/Mcompar_res_cmp_lt0000_cy<15> (round4/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round4/m4/Mmux_res_mux00011011 (round4/m4/N01)
+     LUT4:I0->O            4   0.704   0.762  round4/m4/Mmux_res_mux000181 (round4/S9<1>)
+     LUT2:I0->O           18   0.704   1.243  round4/r3/Mxor_Z_Result<1>1 (R41<1>)
+     LUT4:I0->O            1   0.704   0.595  round5/m1/X1_cmp_eq000012 (round5/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round5/m1/X1_cmp_eq000076 (round5/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round5/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round5/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round5/m1/Mmult_XY_Madd2_cy<7> (round5/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round5/m1/Mmult_XY_Madd2_xor<8> (round5/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round5/m1/Mmult_XY_Madd8_lut<10> (round5/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round5/m1/Mmult_XY_Madd8_cy<10> (round5/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m1/Mmult_XY_Madd8_cy<11> (round5/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m1/Mmult_XY_Madd8_cy<12> (round5/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round5/m1/Mmult_XY_Madd8_xor<13> (round5/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round5/m1/Mmult_XY_Madd12_lut<17> (round5/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round5/m1/Mmult_XY_Madd12_cy<17> (round5/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m1/Mmult_XY_Madd12_cy<18> (round5/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m1/Mmult_XY_Madd12_cy<19> (round5/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m1/Mmult_XY_Madd12_cy<20> (round5/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m1/Mmult_XY_Madd12_cy<21> (round5/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round5/m1/Mmult_XY_Madd12_xor<22> (round5/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round5/m1/Mmult_XY_Madd14_lut<27> (round5/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round5/m1/Mmult_XY_Madd14_cy<27> (round5/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round5/m1/Mmult_XY_Madd14_xor<28> (round5/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round5/m1/Mmult_XY_Madd15_lut<28> (round5/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round5/m1/Mmult_XY_Madd15_cy<28> (round5/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round5/m1/Mmult_XY_Madd15_xor<29> (round5/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round5/m1/Msub_res_sub0000_lut<13> (round5/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round5/m1/Msub_res_sub0000_cy<13> (round5/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round5/m1/Msub_res_sub0000_xor<14> (round5/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round5/m1/Madd_res_addsub0000_cy<14>_rt (round5/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round5/m1/Madd_res_addsub0000_cy<14> (round5/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round5/m1/Madd_res_addsub0000_xor<15> (round5/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round5/m1/Mmux_res_mux000171 (round5/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round5/r1/Mxor_Z_Result<15>1 (round5/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round5/m3/X1_cmp_eq000049 (round5/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round5/m3/X1_cmp_eq000076 (round5/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round5/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round5/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round5/m3/Mmult_XY_Madd2_cy<7> (round5/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round5/m3/Mmult_XY_Madd2_xor<8> (round5/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round5/m3/Mmult_XY_Madd8_lut<10> (round5/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round5/m3/Mmult_XY_Madd8_cy<10> (round5/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd8_cy<11> (round5/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd8_cy<12> (round5/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round5/m3/Mmult_XY_Madd8_xor<13> (round5/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round5/m3/Mmult_XY_Madd12_lut<17> (round5/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round5/m3/Mmult_XY_Madd12_cy<17> (round5/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd12_cy<18> (round5/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd12_cy<19> (round5/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd12_cy<20> (round5/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd12_cy<21> (round5/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round5/m3/Mmult_XY_Madd12_xor<22> (round5/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round5/m3/Mmult_XY_Madd14_lut<27> (round5/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round5/m3/Mmult_XY_Madd14_cy<27> (round5/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd14_cy<28> (round5/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m3/Mmult_XY_Madd14_cy<29> (round5/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round5/m3/Mmult_XY_Madd14_xor<30> (round5/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round5/m3/Mmult_XY_Madd15_lut<30> (round5/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round5/m3/Mmult_XY_Madd15_cy<30> (round5/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round5/m3/Mmult_XY_Madd15_xor<31> (round5/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round5/m3/Mcompar_res_cmp_lt0000_lut<15> (round5/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round5/m3/Mcompar_res_cmp_lt0000_cy<15> (round5/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round5/m3/Mmux_res_mux00011011 (round5/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round5/m3/Mmux_res_mux000181 (round5/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round5/a3/Madd_Z_lut<1> (round5/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round5/a3/Madd_Z_cy<1> (round5/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round5/a3/Madd_Z_xor<2> (round5/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round5/m4/X1_cmp_eq00008 (round5/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round5/m4/X1_cmp_eq000024 (round5/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round5/m4/X1_cmp_eq000088_SW0 (N100)
+     LUT4:I3->O           18   0.704   1.068  round5/m4/X1_cmp_eq000088 (round5/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round5/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round5/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round5/m4/Mmult_XY_Madd2_cy<7> (round5/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round5/m4/Mmult_XY_Madd2_xor<8> (round5/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round5/m4/Mmult_XY_Madd8_lut<10> (round5/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round5/m4/Mmult_XY_Madd8_cy<10> (round5/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd8_cy<11> (round5/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd8_cy<12> (round5/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round5/m4/Mmult_XY_Madd8_xor<13> (round5/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round5/m4/Mmult_XY_Madd12_lut<17> (round5/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round5/m4/Mmult_XY_Madd12_cy<17> (round5/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd12_cy<18> (round5/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd12_cy<19> (round5/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd12_cy<20> (round5/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd12_cy<21> (round5/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round5/m4/Mmult_XY_Madd12_xor<22> (round5/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round5/m4/Mmult_XY_Madd14_lut<27> (round5/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round5/m4/Mmult_XY_Madd14_cy<27> (round5/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd14_cy<28> (round5/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round5/m4/Mmult_XY_Madd14_cy<29> (round5/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round5/m4/Mmult_XY_Madd14_xor<30> (round5/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round5/m4/Mmult_XY_Madd15_lut<30> (round5/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round5/m4/Mmult_XY_Madd15_cy<30> (round5/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round5/m4/Mmult_XY_Madd15_xor<31> (round5/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round5/m4/Mcompar_res_cmp_lt0000_lut<15> (round5/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round5/m4/Mcompar_res_cmp_lt0000_cy<15> (round5/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round5/m4/Mmux_res_mux00011011 (round5/m4/N01)
+     LUT4:I0->O            4   0.704   0.762  round5/m4/Mmux_res_mux000181 (round5/S9<1>)
+     LUT2:I0->O           18   0.704   1.243  round5/r3/Mxor_Z_Result<1>1 (R51<1>)
+     LUT4:I0->O            1   0.704   0.595  round6/m1/X1_cmp_eq000012 (round6/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round6/m1/X1_cmp_eq000076 (round6/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round6/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round6/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round6/m1/Mmult_XY_Madd2_cy<7> (round6/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round6/m1/Mmult_XY_Madd2_xor<8> (round6/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round6/m1/Mmult_XY_Madd8_lut<10> (round6/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round6/m1/Mmult_XY_Madd8_cy<10> (round6/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m1/Mmult_XY_Madd8_cy<11> (round6/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m1/Mmult_XY_Madd8_cy<12> (round6/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round6/m1/Mmult_XY_Madd8_xor<13> (round6/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round6/m1/Mmult_XY_Madd12_lut<17> (round6/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round6/m1/Mmult_XY_Madd12_cy<17> (round6/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m1/Mmult_XY_Madd12_cy<18> (round6/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m1/Mmult_XY_Madd12_cy<19> (round6/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m1/Mmult_XY_Madd12_cy<20> (round6/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m1/Mmult_XY_Madd12_cy<21> (round6/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round6/m1/Mmult_XY_Madd12_xor<22> (round6/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round6/m1/Mmult_XY_Madd14_lut<27> (round6/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round6/m1/Mmult_XY_Madd14_cy<27> (round6/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round6/m1/Mmult_XY_Madd14_xor<28> (round6/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round6/m1/Mmult_XY_Madd15_lut<28> (round6/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round6/m1/Mmult_XY_Madd15_cy<28> (round6/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round6/m1/Mmult_XY_Madd15_xor<29> (round6/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round6/m1/Msub_res_sub0000_lut<13> (round6/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round6/m1/Msub_res_sub0000_cy<13> (round6/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round6/m1/Msub_res_sub0000_xor<14> (round6/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round6/m1/Madd_res_addsub0000_cy<14>_rt (round6/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round6/m1/Madd_res_addsub0000_cy<14> (round6/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round6/m1/Madd_res_addsub0000_xor<15> (round6/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round6/m1/Mmux_res_mux000171 (round6/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round6/r1/Mxor_Z_Result<15>1 (round6/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round6/m3/X1_cmp_eq000049 (round6/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round6/m3/X1_cmp_eq000076 (round6/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round6/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round6/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round6/m3/Mmult_XY_Madd2_cy<7> (round6/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round6/m3/Mmult_XY_Madd2_xor<8> (round6/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round6/m3/Mmult_XY_Madd8_lut<10> (round6/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round6/m3/Mmult_XY_Madd8_cy<10> (round6/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd8_cy<11> (round6/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd8_cy<12> (round6/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round6/m3/Mmult_XY_Madd8_xor<13> (round6/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round6/m3/Mmult_XY_Madd12_lut<17> (round6/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round6/m3/Mmult_XY_Madd12_cy<17> (round6/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd12_cy<18> (round6/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd12_cy<19> (round6/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd12_cy<20> (round6/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd12_cy<21> (round6/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round6/m3/Mmult_XY_Madd12_xor<22> (round6/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round6/m3/Mmult_XY_Madd14_lut<27> (round6/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round6/m3/Mmult_XY_Madd14_cy<27> (round6/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd14_cy<28> (round6/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m3/Mmult_XY_Madd14_cy<29> (round6/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round6/m3/Mmult_XY_Madd14_xor<30> (round6/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round6/m3/Mmult_XY_Madd15_lut<30> (round6/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round6/m3/Mmult_XY_Madd15_cy<30> (round6/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round6/m3/Mmult_XY_Madd15_xor<31> (round6/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round6/m3/Mcompar_res_cmp_lt0000_lut<15> (round6/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round6/m3/Mcompar_res_cmp_lt0000_cy<15> (round6/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round6/m3/Mmux_res_mux00011011 (round6/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round6/m3/Mmux_res_mux000181 (round6/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round6/a3/Madd_Z_lut<1> (round6/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round6/a3/Madd_Z_cy<1> (round6/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round6/a3/Madd_Z_xor<2> (round6/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round6/m4/X1_cmp_eq00008 (round6/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round6/m4/X1_cmp_eq000024 (round6/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round6/m4/X1_cmp_eq000088_SW0 (N96)
+     LUT4:I3->O           18   0.704   1.068  round6/m4/X1_cmp_eq000088 (round6/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round6/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round6/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round6/m4/Mmult_XY_Madd2_cy<7> (round6/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round6/m4/Mmult_XY_Madd2_xor<8> (round6/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round6/m4/Mmult_XY_Madd8_lut<10> (round6/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round6/m4/Mmult_XY_Madd8_cy<10> (round6/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd8_cy<11> (round6/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd8_cy<12> (round6/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round6/m4/Mmult_XY_Madd8_xor<13> (round6/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round6/m4/Mmult_XY_Madd12_lut<17> (round6/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round6/m4/Mmult_XY_Madd12_cy<17> (round6/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd12_cy<18> (round6/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd12_cy<19> (round6/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd12_cy<20> (round6/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd12_cy<21> (round6/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round6/m4/Mmult_XY_Madd12_xor<22> (round6/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round6/m4/Mmult_XY_Madd14_lut<27> (round6/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round6/m4/Mmult_XY_Madd14_cy<27> (round6/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd14_cy<28> (round6/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round6/m4/Mmult_XY_Madd14_cy<29> (round6/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round6/m4/Mmult_XY_Madd14_xor<30> (round6/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round6/m4/Mmult_XY_Madd15_lut<30> (round6/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round6/m4/Mmult_XY_Madd15_cy<30> (round6/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round6/m4/Mmult_XY_Madd15_xor<31> (round6/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round6/m4/Mcompar_res_cmp_lt0000_lut<15> (round6/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round6/m4/Mcompar_res_cmp_lt0000_cy<15> (round6/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round6/m4/Mmux_res_mux00011011 (round6/m4/N01)
+     LUT4:I0->O            4   0.704   0.762  round6/m4/Mmux_res_mux000181 (round6/S9<1>)
+     LUT2:I0->O           18   0.704   1.243  round6/r3/Mxor_Z_Result<1>1 (R61<1>)
+     LUT4:I0->O            1   0.704   0.595  round7/m1/X1_cmp_eq000012 (round7/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round7/m1/X1_cmp_eq000076 (round7/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round7/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round7/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round7/m1/Mmult_XY_Madd2_cy<7> (round7/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round7/m1/Mmult_XY_Madd2_xor<8> (round7/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round7/m1/Mmult_XY_Madd8_lut<10> (round7/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round7/m1/Mmult_XY_Madd8_cy<10> (round7/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m1/Mmult_XY_Madd8_cy<11> (round7/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m1/Mmult_XY_Madd8_cy<12> (round7/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round7/m1/Mmult_XY_Madd8_xor<13> (round7/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round7/m1/Mmult_XY_Madd12_lut<17> (round7/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round7/m1/Mmult_XY_Madd12_cy<17> (round7/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m1/Mmult_XY_Madd12_cy<18> (round7/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m1/Mmult_XY_Madd12_cy<19> (round7/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m1/Mmult_XY_Madd12_cy<20> (round7/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m1/Mmult_XY_Madd12_cy<21> (round7/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round7/m1/Mmult_XY_Madd12_xor<22> (round7/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round7/m1/Mmult_XY_Madd14_lut<27> (round7/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round7/m1/Mmult_XY_Madd14_cy<27> (round7/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round7/m1/Mmult_XY_Madd14_xor<28> (round7/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round7/m1/Mmult_XY_Madd15_lut<28> (round7/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round7/m1/Mmult_XY_Madd15_cy<28> (round7/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round7/m1/Mmult_XY_Madd15_xor<29> (round7/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round7/m1/Msub_res_sub0000_lut<13> (round7/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round7/m1/Msub_res_sub0000_cy<13> (round7/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round7/m1/Msub_res_sub0000_xor<14> (round7/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round7/m1/Madd_res_addsub0000_cy<14>_rt (round7/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round7/m1/Madd_res_addsub0000_cy<14> (round7/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round7/m1/Madd_res_addsub0000_xor<15> (round7/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round7/m1/Mmux_res_mux000171 (round7/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round7/r1/Mxor_Z_Result<15>1 (round7/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round7/m3/X1_cmp_eq000049 (round7/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round7/m3/X1_cmp_eq000076 (round7/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round7/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round7/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round7/m3/Mmult_XY_Madd2_cy<7> (round7/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round7/m3/Mmult_XY_Madd2_xor<8> (round7/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round7/m3/Mmult_XY_Madd8_lut<10> (round7/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round7/m3/Mmult_XY_Madd8_cy<10> (round7/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd8_cy<11> (round7/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd8_cy<12> (round7/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round7/m3/Mmult_XY_Madd8_xor<13> (round7/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round7/m3/Mmult_XY_Madd12_lut<17> (round7/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round7/m3/Mmult_XY_Madd12_cy<17> (round7/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd12_cy<18> (round7/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd12_cy<19> (round7/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd12_cy<20> (round7/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd12_cy<21> (round7/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round7/m3/Mmult_XY_Madd12_xor<22> (round7/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round7/m3/Mmult_XY_Madd14_lut<27> (round7/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round7/m3/Mmult_XY_Madd14_cy<27> (round7/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd14_cy<28> (round7/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m3/Mmult_XY_Madd14_cy<29> (round7/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round7/m3/Mmult_XY_Madd14_xor<30> (round7/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round7/m3/Mmult_XY_Madd15_lut<30> (round7/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round7/m3/Mmult_XY_Madd15_cy<30> (round7/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round7/m3/Mmult_XY_Madd15_xor<31> (round7/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round7/m3/Mcompar_res_cmp_lt0000_lut<15> (round7/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round7/m3/Mcompar_res_cmp_lt0000_cy<15> (round7/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round7/m3/Mmux_res_mux00011011 (round7/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round7/m3/Mmux_res_mux000181 (round7/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round7/a3/Madd_Z_lut<1> (round7/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round7/a3/Madd_Z_cy<1> (round7/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round7/a3/Madd_Z_xor<2> (round7/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round7/m4/X1_cmp_eq00008 (round7/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round7/m4/X1_cmp_eq000024 (round7/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round7/m4/X1_cmp_eq000088_SW0 (N92)
+     LUT4:I3->O           18   0.704   1.068  round7/m4/X1_cmp_eq000088 (round7/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round7/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round7/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round7/m4/Mmult_XY_Madd2_cy<7> (round7/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round7/m4/Mmult_XY_Madd2_xor<8> (round7/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round7/m4/Mmult_XY_Madd8_lut<10> (round7/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round7/m4/Mmult_XY_Madd8_cy<10> (round7/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd8_cy<11> (round7/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd8_cy<12> (round7/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round7/m4/Mmult_XY_Madd8_xor<13> (round7/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round7/m4/Mmult_XY_Madd12_lut<17> (round7/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round7/m4/Mmult_XY_Madd12_cy<17> (round7/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd12_cy<18> (round7/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd12_cy<19> (round7/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd12_cy<20> (round7/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd12_cy<21> (round7/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round7/m4/Mmult_XY_Madd12_xor<22> (round7/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round7/m4/Mmult_XY_Madd14_lut<27> (round7/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round7/m4/Mmult_XY_Madd14_cy<27> (round7/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd14_cy<28> (round7/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round7/m4/Mmult_XY_Madd14_cy<29> (round7/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round7/m4/Mmult_XY_Madd14_xor<30> (round7/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round7/m4/Mmult_XY_Madd15_lut<30> (round7/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round7/m4/Mmult_XY_Madd15_cy<30> (round7/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round7/m4/Mmult_XY_Madd15_xor<31> (round7/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round7/m4/Mcompar_res_cmp_lt0000_lut<15> (round7/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round7/m4/Mcompar_res_cmp_lt0000_cy<15> (round7/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round7/m4/Mmux_res_mux00011011 (round7/m4/N01)
+     LUT4:I0->O            4   0.704   0.762  round7/m4/Mmux_res_mux000181 (round7/S9<1>)
+     LUT2:I0->O           18   0.704   1.243  round7/r3/Mxor_Z_Result<1>1 (R71<1>)
+     LUT4:I0->O            1   0.704   0.595  round8/m1/X1_cmp_eq000012 (round8/m1/X1_cmp_eq000012)
+     LUT4:I0->O           18   0.704   1.068  round8/m1/X1_cmp_eq000076 (round8/m1/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round8/m1/Mmult_XY_X1<16>_x_Y1<2>_mand (round8/m1/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round8/m1/Mmult_XY_Madd2_cy<7> (round8/m1/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round8/m1/Mmult_XY_Madd2_xor<8> (round8/m1/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round8/m1/Mmult_XY_Madd8_lut<10> (round8/m1/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round8/m1/Mmult_XY_Madd8_cy<10> (round8/m1/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m1/Mmult_XY_Madd8_cy<11> (round8/m1/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m1/Mmult_XY_Madd8_cy<12> (round8/m1/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round8/m1/Mmult_XY_Madd8_xor<13> (round8/m1/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round8/m1/Mmult_XY_Madd12_lut<17> (round8/m1/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round8/m1/Mmult_XY_Madd12_cy<17> (round8/m1/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m1/Mmult_XY_Madd12_cy<18> (round8/m1/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m1/Mmult_XY_Madd12_cy<19> (round8/m1/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m1/Mmult_XY_Madd12_cy<20> (round8/m1/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m1/Mmult_XY_Madd12_cy<21> (round8/m1/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round8/m1/Mmult_XY_Madd12_xor<22> (round8/m1/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round8/m1/Mmult_XY_Madd14_lut<27> (round8/m1/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round8/m1/Mmult_XY_Madd14_cy<27> (round8/m1/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  round8/m1/Mmult_XY_Madd14_xor<28> (round8/m1/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  round8/m1/Mmult_XY_Madd15_lut<28> (round8/m1/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  round8/m1/Mmult_XY_Madd15_cy<28> (round8/m1/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  round8/m1/Mmult_XY_Madd15_xor<29> (round8/m1/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  round8/m1/Msub_res_sub0000_lut<13> (round8/m1/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  round8/m1/Msub_res_sub0000_cy<13> (round8/m1/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  round8/m1/Msub_res_sub0000_xor<14> (round8/m1/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  round8/m1/Madd_res_addsub0000_cy<14>_rt (round8/m1/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  round8/m1/Madd_res_addsub0000_cy<14> (round8/m1/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  round8/m1/Madd_res_addsub0000_xor<15> (round8/m1/res_addsub0000<15>)
+     LUT4:I2->O            2   0.704   0.526  round8/m1/Mmux_res_mux000171 (round8/S1<15>)
+     LUT2:I1->O           18   0.704   1.243  round8/r1/Mxor_Z_Result<15>1 (round8/S5<15>)
+     LUT4:I0->O            1   0.704   0.455  round8/m3/X1_cmp_eq000049 (round8/m3/X1_cmp_eq000049)
+     LUT4:I2->O           18   0.704   1.068  round8/m3/X1_cmp_eq000076 (round8/m3/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round8/m3/Mmult_XY_X1<16>_x_Y1<2>_mand (round8/m3/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round8/m3/Mmult_XY_Madd2_cy<7> (round8/m3/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round8/m3/Mmult_XY_Madd2_xor<8> (round8/m3/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round8/m3/Mmult_XY_Madd8_lut<10> (round8/m3/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round8/m3/Mmult_XY_Madd8_cy<10> (round8/m3/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd8_cy<11> (round8/m3/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd8_cy<12> (round8/m3/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round8/m3/Mmult_XY_Madd8_xor<13> (round8/m3/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round8/m3/Mmult_XY_Madd12_lut<17> (round8/m3/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round8/m3/Mmult_XY_Madd12_cy<17> (round8/m3/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd12_cy<18> (round8/m3/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd12_cy<19> (round8/m3/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd12_cy<20> (round8/m3/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd12_cy<21> (round8/m3/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round8/m3/Mmult_XY_Madd12_xor<22> (round8/m3/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round8/m3/Mmult_XY_Madd14_lut<27> (round8/m3/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round8/m3/Mmult_XY_Madd14_cy<27> (round8/m3/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd14_cy<28> (round8/m3/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m3/Mmult_XY_Madd14_cy<29> (round8/m3/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round8/m3/Mmult_XY_Madd14_xor<30> (round8/m3/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round8/m3/Mmult_XY_Madd15_lut<30> (round8/m3/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round8/m3/Mmult_XY_Madd15_cy<30> (round8/m3/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round8/m3/Mmult_XY_Madd15_xor<31> (round8/m3/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round8/m3/Mcompar_res_cmp_lt0000_lut<15> (round8/m3/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round8/m3/Mcompar_res_cmp_lt0000_cy<15> (round8/m3/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round8/m3/Mmux_res_mux00011011 (round8/m3/N01)
+     LUT4:I0->O            2   0.704   0.482  round8/m3/Mmux_res_mux000181 (round8/S7<1>)
+     LUT3:I2->O            1   0.704   0.000  round8/a3/Madd_Z_lut<1> (round8/a3/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round8/a3/Madd_Z_cy<1> (round8/a3/Madd_Z_cy<1>)
+     XORCY:CI->O          18   0.804   1.103  round8/a3/Madd_Z_xor<2> (round8/S8<2>)
+     LUT3:I2->O            1   0.704   0.595  round8/m4/X1_cmp_eq00008 (round8/m4/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  round8/m4/X1_cmp_eq000024 (round8/m4/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  round8/m4/X1_cmp_eq000088_SW0 (N86)
+     LUT4:I3->O           18   0.704   1.068  round8/m4/X1_cmp_eq000088 (round8/m4/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  round8/m4/Mmult_XY_X1<16>_x_Y1<2>_mand (round8/m4/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  round8/m4/Mmult_XY_Madd2_cy<7> (round8/m4/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  round8/m4/Mmult_XY_Madd2_xor<8> (round8/m4/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  round8/m4/Mmult_XY_Madd8_lut<10> (round8/m4/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  round8/m4/Mmult_XY_Madd8_cy<10> (round8/m4/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd8_cy<11> (round8/m4/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd8_cy<12> (round8/m4/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  round8/m4/Mmult_XY_Madd8_xor<13> (round8/m4/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  round8/m4/Mmult_XY_Madd12_lut<17> (round8/m4/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  round8/m4/Mmult_XY_Madd12_cy<17> (round8/m4/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd12_cy<18> (round8/m4/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd12_cy<19> (round8/m4/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd12_cy<20> (round8/m4/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd12_cy<21> (round8/m4/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  round8/m4/Mmult_XY_Madd12_xor<22> (round8/m4/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  round8/m4/Mmult_XY_Madd14_lut<27> (round8/m4/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  round8/m4/Mmult_XY_Madd14_cy<27> (round8/m4/Mmult_XY_Madd14_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd14_cy<28> (round8/m4/Mmult_XY_Madd14_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  round8/m4/Mmult_XY_Madd14_cy<29> (round8/m4/Mmult_XY_Madd14_cy<29>)
+     XORCY:CI->O           1   0.804   0.595  round8/m4/Mmult_XY_Madd14_xor<30> (round8/m4/Mmult_XY_Madd_306)
+     LUT3:I0->O            1   0.704   0.000  round8/m4/Mmult_XY_Madd15_lut<30> (round8/m4/Mmult_XY_Madd15_lut<30>)
+     MUXCY:S->O            0   0.464   0.000  round8/m4/Mmult_XY_Madd15_cy<30> (round8/m4/Mmult_XY_Madd15_cy<30>)
+     XORCY:CI->O           2   0.804   0.526  round8/m4/Mmult_XY_Madd15_xor<31> (round8/m4/XY<31>)
+     LUT2:I1->O            1   0.704   0.000  round8/m4/Mcompar_res_cmp_lt0000_lut<15> (round8/m4/Mcompar_res_cmp_lt0000_lut<15>)
+     MUXCY:S->O           18   0.864   1.243  round8/m4/Mcompar_res_cmp_lt0000_cy<15> (round8/m4/Mcompar_res_cmp_lt0000_cy<15>)
+     LUT3:I0->O           15   0.704   1.192  round8/m4/Mmux_res_mux00011011 (round8/m4/N01)
+     LUT4:I0->O            4   0.704   0.666  round8/m4/Mmux_res_mux000181 (round8/S9<1>)
+     LUT2:I1->O            1   0.704   0.000  round8/a4/Madd_Z_lut<1> (round8/a4/Madd_Z_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  round8/a4/Madd_Z_cy<1> (round8/a4/Madd_Z_cy<1>)
+     XORCY:CI->O           3   0.804   0.706  round8/a4/Madd_Z_xor<2> (round8/S10<2>)
+     LUT2:I0->O           18   0.704   1.072  round8/r6/Mxor_Z_Result<2>1 (R84<2>)
+     LUT4:I3->O            1   0.704   0.595  output/m2/X1_cmp_eq00008 (output/m2/X1_cmp_eq00008)
+     LUT4:I0->O            1   0.704   0.499  output/m2/X1_cmp_eq000024 (output/m2/X1_cmp_eq000024)
+     LUT4:I1->O            1   0.704   0.424  output/m2/X1_cmp_eq000088_SW0 (N88)
+     LUT4:I3->O           18   0.704   1.068  output/m2/X1_cmp_eq000088 (output/m2/X1<16>)
+     MULT_AND:I0->LO       0   0.741   0.000  output/m2/Mmult_XY_X1<16>_x_Y1<2>_mand (output/m2/Mmult_XY_X1<16>_x_Y1<2>_mand1)
+     MUXCY:DI->O           1   0.888   0.000  output/m2/Mmult_XY_Madd2_cy<7> (output/m2/Mmult_XY_Madd2_cy<7>)
+     XORCY:CI->O           1   0.804   0.595  output/m2/Mmult_XY_Madd2_xor<8> (output/m2/Mmult_XY_Madd_192)
+     LUT2:I0->O            1   0.704   0.000  output/m2/Mmult_XY_Madd8_lut<10> (output/m2/Mmult_XY_Madd8_lut<10>)
+     MUXCY:S->O            1   0.464   0.000  output/m2/Mmult_XY_Madd8_cy<10> (output/m2/Mmult_XY_Madd8_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  output/m2/Mmult_XY_Madd8_cy<11> (output/m2/Mmult_XY_Madd8_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  output/m2/Mmult_XY_Madd8_cy<12> (output/m2/Mmult_XY_Madd8_cy<12>)
+     XORCY:CI->O           1   0.804   0.595  output/m2/Mmult_XY_Madd8_xor<13> (output/m2/Mmult_XY_Madd_229)
+     LUT2:I0->O            1   0.704   0.000  output/m2/Mmult_XY_Madd12_lut<17> (output/m2/Mmult_XY_Madd12_lut<17>)
+     MUXCY:S->O            1   0.464   0.000  output/m2/Mmult_XY_Madd12_cy<17> (output/m2/Mmult_XY_Madd12_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  output/m2/Mmult_XY_Madd12_cy<18> (output/m2/Mmult_XY_Madd12_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  output/m2/Mmult_XY_Madd12_cy<19> (output/m2/Mmult_XY_Madd12_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  output/m2/Mmult_XY_Madd12_cy<20> (output/m2/Mmult_XY_Madd12_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  output/m2/Mmult_XY_Madd12_cy<21> (output/m2/Mmult_XY_Madd12_cy<21>)
+     XORCY:CI->O           1   0.804   0.595  output/m2/Mmult_XY_Madd12_xor<22> (output/m2/Mmult_XY_Madd_278)
+     LUT2:I0->O            1   0.704   0.000  output/m2/Mmult_XY_Madd14_lut<27> (output/m2/Mmult_XY_Madd14_lut<27>)
+     MUXCY:S->O            1   0.464   0.000  output/m2/Mmult_XY_Madd14_cy<27> (output/m2/Mmult_XY_Madd14_cy<27>)
+     XORCY:CI->O           1   0.804   0.595  output/m2/Mmult_XY_Madd14_xor<28> (output/m2/Mmult_XY_Madd_289)
+     LUT3:I0->O            1   0.704   0.000  output/m2/Mmult_XY_Madd15_lut<28> (output/m2/Mmult_XY_Madd15_lut<28>)
+     MUXCY:S->O            1   0.464   0.000  output/m2/Mmult_XY_Madd15_cy<28> (output/m2/Mmult_XY_Madd15_cy<28>)
+     XORCY:CI->O           2   0.804   0.526  output/m2/Mmult_XY_Madd15_xor<29> (output/m2/XY<29>)
+     LUT2:I1->O            1   0.704   0.000  output/m2/Msub_res_sub0000_lut<13> (output/m2/Msub_res_sub0000_lut<13>)
+     MUXCY:S->O            1   0.464   0.000  output/m2/Msub_res_sub0000_cy<13> (output/m2/Msub_res_sub0000_cy<13>)
+     XORCY:CI->O           2   0.804   0.622  output/m2/Msub_res_sub0000_xor<14> (output/m2/res_sub0000<14>)
+     LUT1:I0->O            1   0.704   0.000  output/m2/Madd_res_addsub0000_cy<14>_rt (output/m2/Madd_res_addsub0000_cy<14>_rt)
+     MUXCY:S->O            0   0.464   0.000  output/m2/Madd_res_addsub0000_cy<14> (output/m2/Madd_res_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.455  output/m2/Madd_res_addsub0000_xor<15> (output/m2/res_addsub0000<15>)
+     LUT4:I2->O            1   0.704   0.420  output/m2/Mmux_res_mux000171 (B4_15_OBUF)
+     OBUF:I->O                 3.272          B4_15_OBUF (B4<15>)
+    ----------------------------------------
+    Total                    654.639ns (439.584ns logic, 215.055ns route)
+                                       (67.1% logic, 32.9% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 25.00 secs
+Total CPU time to Xst completion: 25.57 secs
+ 
+--> 
+
+Total memory usage is 355640 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
